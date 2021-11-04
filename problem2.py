@@ -33,7 +33,10 @@ class Building(A):
 
 def build(cls):
     # TODO: fill this method
-
+    a = cls()
+    a.build_floor()
+    a.build_body()
+    a.build_ceiling()
 
 if __name__ == "__main__":
     build(House)
